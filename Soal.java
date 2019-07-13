@@ -8,7 +8,8 @@ public class Soal {
     Soal() { start(); }
     public void setJawab(String jawab) { this.jawab = jawab; }
     private Quiz quiz[] = {
-        new Quiz("Berapakah 1 + 1: ", "2"),
+        new Quiz("Berapakah 1 + 1: ", "a"),
+        printf("a. 2/nb. 3/nc. 4");
         new Quiz("Berapakah 5 x 20: ", "100"),
         new Quiz("Berapakah 9 x 12: ", "108"),
         new Quiz("Berapakah 7 x 7 x 7: ", "343"),
