@@ -8,7 +8,8 @@ public class Soal {
     Soal() { start(); }
     public void setJawab(String jawab) { this.jawab = jawab; }
     private Quiz quiz[] = {
-        new Quiz("Berapakah 1 + 1: ", "2"),
+        new Quiz("Berikut yang termasuk alat musik petik, kecuali...... ", "a"),
+        printf("a. kulintang/nb. gitar/nc. bas");
         new Quiz("Berapakah 5 x 20: ", "100"),
         new Quiz("Berapakah 9 x 12: ", "108"),
         new Quiz("Berapakah 7 x 7 x 7: ", "343"),
